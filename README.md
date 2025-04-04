@@ -2,7 +2,7 @@
 
 This Jenkins Pipeline automates the CI/CD process for the **Spring PetClinic** project hosted on GitHub. The pipeline builds the project, runs SonarQube analysis, creates a Docker image, pushes it to a Docker registry, and deploys the application to a Kubernetes cluster.
 
-## 🚀 Pipeline Overview
+##  Pipeline Overview
 
 The pipeline performs the following stages:
 
@@ -18,7 +18,7 @@ The pipeline performs the following stages:
 
 ---
 
-## ⚙️ Pipeline Configuration
+##  Pipeline Configuration
 
 - **GitHub Repository:** [https://github.com/devtester1231/spring-petclinic](https://github.com/devtester1231/spring-petclinic)
 - **Docker Image Name:** `devtester1231/jenkins-built-this-petclinic`
@@ -28,7 +28,7 @@ The pipeline performs the following stages:
 
 ---
 
-## 🗒️ Prerequisites
+## Prerequisites
 
 - Jenkins with the following plugins installed:
   - **Pipeline**
@@ -43,7 +43,7 @@ The pipeline performs the following stages:
 
 ---
 
-## 🔧 How to Use
+## How to Use
 
 1. **Create a new Jenkins Pipeline job** and copy the provided script into the pipeline configuration.
 2. **Configure the GitHub webhook** to trigger builds on push events.
@@ -52,7 +52,7 @@ The pipeline performs the following stages:
 
 ---
 
-## ⚡ Trigger
+## Trigger
 
 This pipeline is triggered automatically on every GitHub push event due to the following trigger configuration:
 
